@@ -16,6 +16,7 @@
  
  function saludar() {
      alert("Hola!")
+     event.stopPropagation();
  }
  
  div.addEventListener("click", function () {
